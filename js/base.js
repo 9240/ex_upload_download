@@ -775,8 +775,8 @@ new Vue({
                     <h5 class="text-info">您好{{this.shopusername}},您的购物车内容如下:</h5>
                     <hr>
                 </template>
-                <div class="p-2 text-left text-dark" v-for="(item,index) in users[index].shop" :key="index">
-                    <img :src="item.image" alt="" class="float-left mt-2" style="width:100px;height:100px">
+                <div class="p-2 text-left text-dark mt-1" v-for="(item,index) in users[index].shop" :key="index">
+                    <img :src="item.image" alt="" class="float-left mt-1" style="width:100px;height:100px">
                     <div class="ml-5">
                         <h6 class="font-weight-bold pl-5 pr-5">{{item.title}}</h6>
                         <label class="mt-4 pl-5">￥{{item.price}}</label>
