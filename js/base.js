@@ -540,7 +540,7 @@ new Vue({
                         <h2 class="text-primary" v-show="!this.search" id="body">男友&运动</h2>
                         <hr class="bg-danger" v-show="!this.search">
                         <div class="row">
-                            <div class="col-lg-2 col-md-4" style="width:200px" v-for="(item,index) in searchmsg.slice(0,24)">
+                            <div class="col-lg-2 col-sm-4" style="width:200px" v-for="(item,index) in searchmsg.slice(0,24)">
                                 <img class="card-img-top" :src="item.image" alt="Card image" style="width:100%;height:150px" :title="item.title">
                                 <small>{{item.title.slice(0,11)}}</small>
                                 <br >
@@ -552,7 +552,7 @@ new Vue({
                         <h2 class="text-primary" v-show="!this.search" id="girl">女鞋&包包</h2>
                         <hr class="bg-danger" v-show="!this.search">
                         <div class="row">
-                            <div class="col-lg-2 col-md-4" style="width:200px" v-for="(item,index) in searchmsg.slice(24,48)">
+                            <div class="col-lg-2 col-sm-4" style="width:200px" v-for="(item,index) in searchmsg.slice(24,48)">
                                 <img class="card-img-top" :src="item.image" alt="Card image" style="width:100%;height:150px" :title="item.title">
                                 <small>{{item.title.slice(0,11)}}</small>
                                 <br >
@@ -564,7 +564,7 @@ new Vue({
                         <h2 class="text-primary" v-show="!this.search" id="book">书籍</h2>
                         <hr class="bg-danger" v-show="!this.search">
                         <div class="row">
-                            <div class="col-lg-2 col-md-4" style="width:200px" v-for="(item,index) in searchmsg.slice(48,60)">
+                            <div class="col-lg-2 col-sm-4" style="width:200px" v-for="(item,index) in searchmsg.slice(48,60)">
                                 <img class="card-img-top" :src="item.image" alt="Card image" style="width:100%;height:150px" :title="item.title">
                                 <small>{{item.title.slice(0,11)}}</small>
                                 <br >
@@ -576,7 +576,7 @@ new Vue({
                         <h2 class="text-primary" v-show="!this.search" id="phone">手机</h2>
                         <hr class="bg-danger" v-show="!this.search">
                         <div class="row">
-                            <div class="col-lg-2 col-md-4" style="width:200px" v-for="(item,index) in searchmsg.slice(60,72)">
+                            <div class="col-lg-2 col-sm-4" style="width:200px" v-for="(item,index) in searchmsg.slice(60,72)">
                                 <img class="card-img-top" :src="item.image" alt="Card image" style="width:100%;height:150px" :title="item.title">
                                 <small>{{item.title.slice(0,11)}}</small>
                                 <br >
