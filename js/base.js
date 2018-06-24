@@ -14,7 +14,7 @@ Vue.component('shopheader',{
         }
     },
     template:`
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow" id="top">
+        <div class="d-flex p-3 px-md-4 mb-3 bg-white border-bottom" id="top" style="min-width:580px;">
             <h5 class="my-0 mr-md-auto font-weight-normal text-danger p-2">XX商城</h5>
             <nav class="my-2 my-md-0 mr-md-3">
                 <a class="p-2 text-dark" href="#" v-on:click="changeisshop">我的购物车</a>
@@ -22,8 +22,8 @@ Vue.component('shopheader',{
                 <a class="p-2 text-dark" href="#">浏览过</a>
             </nav>
             <template v-if='!this.state.logined'>
-                <a class="btn btn-outline-primary mr-2" href="#" v-on:click='login'>登录</a>
-                <a class="btn btn-outline-primary" href="#" v-on:click='register'>注册</a>
+                <a class="btn btn-outline-primary mr-2" href="###" v-on:click='login'>登录</a>
+                <a class="btn btn-outline-primary" href="###" v-on:click='register'>注册</a>
             </template>
             <template v-else>
                 <h5 class="text-bold text-info">{{user.currentname}}</h5>

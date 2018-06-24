@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shop</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="alternate" href="./css/style.css">
 </head>
-<body>
+<body style="min-width:580px;">
     <div id="app" class="container">
         <shopheader :state='state' v-show='state.islogin||state.isregister' :users='users'></shopheader>
         <maincontent :state='state' :users='users'></maincontent>
