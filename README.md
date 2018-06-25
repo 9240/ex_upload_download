@@ -1,7 +1,7 @@
 # shopping
 vue+boostrap4 商城
 
-### 项目演示地址: https://9240.github.io/shopping
+### 项目演示地址: https://9240.github.io/shopping/?#
 ### 已存在账号如下：
 
 username:张三
