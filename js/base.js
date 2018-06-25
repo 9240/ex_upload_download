@@ -22,8 +22,8 @@ Vue.component('shopheader',{
                 <a class="p-2 text-dark" href="#">浏览过</a>
             </nav>
             <template v-if='!this.state.logined'>
-                <a class="btn btn-outline-primary mr-2" href="###" v-on:click='login'>登录</a>
-                <a class="btn btn-outline-primary" href="###" v-on:click='register'>注册</a>
+                <a class="btn btn-outline-primary mr-2" href="#" v-on:click='login'>登录</a>
+                <a class="btn btn-outline-primary" href="#" v-on:click='register'>注册</a>
             </template>
             <template v-else>
                 <h5 class="text-bold text-info">{{user.currentname}}</h5>
