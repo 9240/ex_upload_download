@@ -12,5 +12,3 @@ password:lisi
 
 username:王五
 password:wangwu
-
-### 登录有时候会刷新再次登录就好啦
