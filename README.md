@@ -1,14 +1,3 @@
-# shopping
-vue+boostrap4 商城
-
-### 项目演示地址: https://9240.github.io/shopping/?#
-### 已存在账号如下：
-
-username:张三
-password:zhangsan
-
-username:李四
-password:lisi
-
-username:王五
-password:wangwu
+# 启动express项目 npm run nodemon
+## 启动后打开localhost:4000即可预览
+## 上传的文件在public/file文件夹下
